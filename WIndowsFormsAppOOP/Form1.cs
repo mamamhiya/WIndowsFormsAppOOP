@@ -19,7 +19,7 @@ namespace WIndowsFormsAppOOP
         private void button2_Click(object sender, EventArgs e)
         {
             TextShape rectangle = new TextShape(5,4);
-            rectangle.letters = "*";
+            rectangle.letters = "O";
             rectangle.DrawRectangle();
             textBox1.Text = rectangle.result;
         }

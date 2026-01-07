@@ -26,6 +26,12 @@ namespace WIndowsFormsAppOOP
             this.height = height;
             this.letters = "A";
         }
+        public TextShape(double width, double height, string letters)
+        {
+            this.width = width;
+            this.height = height;
+            this.letters = letters;
+        }
         //-- Methods --//
         public void DrawTriangle()
         { 
@@ -48,7 +54,7 @@ namespace WIndowsFormsAppOOP
             {
                 for (int j = 1; j <= this.width; j++)
                 {
-                    result += this.letters;
+                   result += this.letters; 
                 }
                 result += Environment.NewLine;
             }

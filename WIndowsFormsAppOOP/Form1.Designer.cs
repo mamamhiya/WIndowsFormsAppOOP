@@ -35,19 +35,21 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(43, 22);
+            textBox1.Location = new Point(81, 41);
+            textBox1.Margin = new Padding(6, 6, 6, 6);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(430, 457);
+            textBox1.Size = new Size(803, 842);
             textBox1.TabIndex = 0;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(503, 32);
+            button1.Location = new Point(943, 59);
+            button1.Margin = new Padding(6, 6, 6, 6);
             button1.Name = "button1";
-            button1.Size = new Size(179, 69);
+            button1.Size = new Size(336, 128);
             button1.TabIndex = 1;
             button1.Text = "วาดสาม";
             button1.UseVisualStyleBackColor = true;
@@ -56,9 +58,10 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(503, 119);
+            button2.Location = new Point(943, 220);
+            button2.Margin = new Padding(6, 6, 6, 6);
             button2.Name = "button2";
-            button2.Size = new Size(179, 82);
+            button2.Size = new Size(336, 152);
             button2.TabIndex = 2;
             button2.Text = "วาดสี่";
             button2.UseVisualStyleBackColor = true;
@@ -66,12 +69,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(960, 502);
+            ClientSize = new Size(1800, 929);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "ทดสอบโปรแกรมแบบOOP";
             ResumeLayout(false);
